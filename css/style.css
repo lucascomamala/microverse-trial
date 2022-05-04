@@ -1,7 +1,7 @@
 * {
 
     font-family: 'Poppins', sans-serif;
-    color: white;
+
 }
 
 body {
@@ -12,9 +12,23 @@ body {
         rgba(3, 20, 252, 0.8)
       ), url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     /* background-color: rgba(0,0,0, 0.1); */
-    
+
     /* opacity: 0.6; */
+}
+
+.headers {
+  color: white;
+}
+
+p {
+  font-size: 1.12rem;
+}
+
+label {
+  font-size: 1.12rem
 }
 
 .page-container {
@@ -37,3 +51,10 @@ body {
     padding-top: 20px;
 }
 
+.submit-button {
+  display: block;
+  background: green;
+  border-radius: 2px;
+  color: white;
+  padding: 0.75rem;
+}
